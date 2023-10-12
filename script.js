@@ -33,10 +33,10 @@ constructor(name, age) {
         console.log(`${this.name} is teaching.`);
     }
 }
-const student = new Student('Alice', 20);
+const student = new Student('John', 20);
 student.study(); // Outputs: Alice is studying.
 
-const teacher = new Teacher('Bob', 35);
+const teacher = new Teacher('Alice', 35);
 teacher.teach(); // Outputs: Bob is teaching.
 
 
