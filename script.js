@@ -1,7 +1,20 @@
 //complete this code
-// class Person {}
+ class Person {
+constructor(name, age) {
+        this._name = name;
+        this._age = age;
+    }
 
-// class Student extends Person {
+    get name() {
+        return this._name;
+    }
+
+    set age(age) {
+        this._age = age;
+    }
+}
+
+ class Student extends Person {
     constructor(name, age) {
         super(name, age);
     }
@@ -11,7 +24,7 @@
     }
 }
 
-// class Teacher extends Person {
+ class Teacher extends Person {
        constructor(name, age) {
         super(name, age);
     }
