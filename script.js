@@ -1,11 +1,37 @@
 //complete this code
-class Person {}
+// class Person {}
 
-class Student extends Person {}
+// class Student extends Person {
+    constructor(name, age) {
+        super(name, age);
+    }
 
-class Teacher extends Person {}
+    study() {
+        console.log(`${this.name} is studying.`);
+    }
+}
+
+// class Teacher extends Person {
+       constructor(name, age) {
+        super(name, age);
+    }
+
+    teach() {
+        console.log(`${this.name} is teaching.`);
+    }
+}
+const student = new Student('Alice', 20);
+student.study(); // Outputs: Alice is studying.
+
+const teacher = new Teacher('Bob', 35);
+teacher.teach(); // Outputs: Bob is teaching.
+
+
 
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+
+
+// Example usage:
