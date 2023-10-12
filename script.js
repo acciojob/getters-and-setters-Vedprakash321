@@ -20,7 +20,7 @@ constructor(name, age) {
     }
 
     study() {
-        console.log(`${this.name} is studying.`);
+        console.log(`${this.name} is studying`);
     }
 }
 
@@ -30,7 +30,7 @@ constructor(name, age) {
     }
 
     teach() {
-        console.log(`${this.name} is teaching.`);
+        console.log(`${this.name} is teaching`);
     }
 }
 const student = new Student('John', 20);
